@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: rentify-tools
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://77.237.244.113:5432/rentify_tools
+    username: anton
+    password: Anton_Ber_24!
+
+#    driver-class-name: org.postgresql.Driver
+#    url: jdbc:postgresql://localhost:5432/rentify_tools
+#    username: postgres
+#    password: soly1810
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate.format_sql: true
+
+key:
+  access: 6d5SM/khw/d4mEb4zRTrn0KVwz79LmUKOg0R1v/0lVI=
+  refresh: DL96n5CqGIKlxg9LEH/GsyCzwoTlEmYBBbBHoKRCtmk=
+
+time:
+  access: 7
+  refresh: 30
+
+logging:
+  level:
+    org.springframework.web: DEBUG
+    org.springframework.security: DEBUG
